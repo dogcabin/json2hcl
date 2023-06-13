@@ -1,0 +1,19 @@
+{
+    "terraform_variable_1": {
+        "type": "string",
+        "description": "terraform_variable_1"
+    },
+    "terraform_variable_2": {
+        "type": [
+            {
+                "value": true,
+                "type": "bool"
+            },
+            {
+                "value": false,
+                "type": "bool"
+            }
+        ],
+        "description": "terraform_variable_2"
+    }
+}
